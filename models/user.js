@@ -83,6 +83,7 @@ usersModel._users.post = function (data, callback) {
                                     'phone': phone,
                                     'email': email,
                                     'password': hashPassword,
+                                    'created_at':Date.now(),
                                     'tosAgreement': true
                                 };
                                 // Storing the user
