@@ -1,0 +1,31 @@
+<main>
+    <h1>{body.title}</h1>
+    <div class="row container-imag">
+        <div id="products"></div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Your Order</h4>
+            <p>A bunch of text</p>
+            <div class="row">
+                <p id="close-modal">X</p>
+                <form id="form-choose" class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="pizza-name" placeholder="Pizza" id="pizza_name" type="text" class="validate"
+                                disabled>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="qtd" placeholder="qntd" type="number" value=1 min="1" max="30">
+
+                        </div>
+                    </div>
+            </div>
+            <div class="modal-footer">
+                <a id="btn-add-my-cart" class="waves-effect waves-light btn">Add in my cart</a>
+            </div>
+        </div>
+
+</main>

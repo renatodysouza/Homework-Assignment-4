@@ -1,0 +1,48 @@
+<section class="form">
+    <h1>{head.description}</h1>
+    <form id="accountCreate" action="/api/users" method="POST">
+        <div class="formError"></div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="firstName" type="text" name="firstName" class="validate">
+                <label class="active" for="firstName">Firstname</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="lastName" type="text" name="lastName" class="validate">
+                <label class="active" for="lastName">Lastname</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="streetAdress" type="text" name="streetAdress" class="validate">
+                <label class="active" for="streetAdress">Street Adress</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="phone" type="text" name="phone" class="validate">
+                <label class="active" for="phone">Phone number</label>
+            </div>
+        </div>
+        <div class="input-field col s6">
+            <input id="email" type="text" name="email" class="validate">
+            <label class="active" for="email">Email</label>
+        </div>
+
+        <div class="input-field col s12">
+            <input id="password" type="password" name="password" class="validate">
+            <label class="active" for="password">Password</label>
+        </div>
+        <div>
+
+            <div class="input-field col s12">
+                <button type="submit" class="waves-effect waves-light btn">Send</button>
+            </div>
+        </div>
+
+        </div>
+    </form>
+
+    <div>
+        <h5 id="msg-sucess" class="right-align msg-sucess">Form was sent successfully</h5>
+    </div>
+
+
+
+</section>

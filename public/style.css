@@ -1,0 +1,205 @@
+/*
+*
+* css style
+*
+ */
+
+ h1 {
+     font-size: 40px;
+ }
+
+ nav .brand-logo {
+     padding-left: 20px;
+ }
+
+ 
+ main {
+    height:79%;
+    padding-left: 20px;
+
+ }
+
+ .footer {
+    padding-left: 10px;
+
+ }
+
+ .form {
+     padding: 140px;
+ }
+
+ .btn {
+    width: 30%;
+    height: 46px;
+    padding: 5px;
+ }
+ .btn-small{
+    margin-top: -47px;
+    float: right;
+    margin-right: 18px;
+ }
+
+ .msg-sucess {
+     color: green;
+     display: none;
+ }
+
+ .formError{
+     color: red;
+     padding: 0 0 30px 13px;
+ }
+
+
+
+#cart-menu {
+    display: block;
+    padding: 20px 26px 0 28px;
+    height: 100%;
+}
+#cart-menu img {
+    width: 23px;
+}
+
+#delete-session {
+    display: none;
+}
+#my-account {
+    display: none;
+}
+
+#admin-menu {
+    display: none;
+}
+
+
+ #welcome h4 {
+     font-size: 12px;
+     float: right;
+     padding-right: 106px;
+     margin-top: 8px;
+ }
+
+.fig-prod {
+    margin-top: -5%;
+    position: relative;
+    background-color: green;
+    max-width: 100%;
+}
+.fig-prod-text  {
+    font-size: medium;
+    padding: 16px 0 20px 16px;
+    color: white;
+    font-weight: 500;
+    font-style: italic;
+}
+.fig-prod-text span {
+    font-size: large;
+    padding-right: 20px;
+    padding-left: 21px;
+}
+.container-imag{
+    position: relative;
+}
+
+.table-product {
+     padding: 30px;
+}
+
+.modal-opened {
+    display: block;
+    top: 28%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-height: 86%;
+}
+
+.modal .modal-footer {
+    padding: 9px 37px;
+    height: 91px;   
+}
+select {
+    display: block;
+    height: 2rem;
+    margin: 7px 0 0 0px;
+    width: 62%;
+
+}
+.quant-group{
+    display: flex;
+
+}
+
+#quantity {
+    margin: 0 0 0 123px;
+}
+
+#close-modal {
+    top: 4%;
+    left: 93%;
+    font-size: 20px;
+    color: red;
+    position: absolute;
+}
+
+input:invalid {
+    border: 2px dashed red;
+  }
+
+ #table-carts {
+    font-size: 2px;
+    display: flex;
+    border: solid 1px #00000070;
+    padding-left: 24px;
+ } 
+
+ #products-cart  p {
+    font-size: 14px;
+} 
+#order-cart h2 {
+    font-size: 18px;
+}
+
+#order-cart p {
+    font-size: 14px;
+}
+
+#total-price p {
+    font-size: 14px;
+}
+
+
+#total-price h4 {
+    font-size: 18px;
+}
+
+.nproduct {
+    padding-right: 312px !important;
+    margin-bottom: 43px;
+}
+
+#products {
+    position: relative;
+    padding-left: 136px;
+}
+
+#products-cart h3{
+    font-size: 18px;
+}
+#products-cart{
+    margin-left: 46px;
+    margin-top: 6px;
+}
+
+#total-price{
+    padding: 14px 0 0 68px;
+
+}
+#order-form {
+    padding-top: 40px;
+}
+
+.panel {
+    display: block;
+}

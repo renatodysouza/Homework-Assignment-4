@@ -1,0 +1,33 @@
+<section class="form">
+        <h1>{head.description}</h1>
+        <form id="login_create" action="/api/tokens" method="POST">
+            <div class="formError"></div>
+            <div class="row">
+              
+                <div class="input-field col s12">
+                    <input id="phone" type="text" name="phone" class="validate">
+                    <label class="active" for="phone">Phone number</label>
+                </div>
+                
+                <div class="input-field col s12">
+                    <input id="password" type="password" name="password" class="validate">
+                    <label class="active" for="password">Password</label>
+                </div>
+                <div>
+    
+                   
+                    <div class="input-field col s12">
+                        <button type="submit" class="waves-effect waves-light btn">Send</button>
+                    </div>
+                </div>
+    
+            </div>
+        </form>
+    
+        <div>
+                <h5 id="msg-sucess" class="right-align msg-sucess">Form was sent successfully</h5>
+              </div>
+      
+    
+    
+    </section>
