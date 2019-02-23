@@ -577,15 +577,10 @@ app.btnCart = function () {
                     app.productClicked(e.target);
 
                     // Open modal
-<<<<<<< HEAD
+
                     document.getElementById('modal1').className += ' modal-opened'
                     
-=======
-                    document.getElementById('modal1').className += ' modal-opened';
 
-
-
->>>>>>> 696c0bcce904949de558c4926067f0d5e3bd00fb
                 } else {
                     // Redirect from login
                     window.location.href = '/login';

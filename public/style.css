@@ -83,7 +83,7 @@
     margin-top: -5%;
     position: relative;
     background-color: green;
-    max-width: 100%;
+    width: 418px !important;
 }
 .fig-prod-text  {
     font-size: medium;
@@ -203,3 +203,10 @@ input:invalid {
 .panel {
     display: block;
 }
+
+.responsive-img {
+
+    width: 418px !important;
+    max-width: none !important;
+}
+

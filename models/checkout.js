@@ -65,8 +65,7 @@ checkoutModel._checkout.post = function (data, callback) {
                                     'priceTotal': cartData.priceTotal+'€',
                                     'order delivered': false,
                                     'status': 'open',
-                                    'creatDate': date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }),
-                                    'time': date.toLocaleTimeString()
+                                    'creatDate': Date.now(),
                                 };
                                 // Call api stripe for payment
                                 helpers.processPayment(tokenStripe, cartData.priceTotal, function (status) {
